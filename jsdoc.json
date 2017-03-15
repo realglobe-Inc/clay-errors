@@ -66,5 +66,31 @@
         "examples": []
       }
     }
+  ],
+  "functions": [
+    {
+      "name": "parse",
+      "access": "",
+      "virtual": false,
+      "description": "Parse errors into custom error class",
+      "parameters": [
+        {
+          "name": "error",
+          "type": [
+            "Error",
+            "Object"
+          ],
+          "description": "Error to parse",
+          "default": "",
+          "optional": "",
+          "nullable": ""
+        }
+      ],
+      "examples": [],
+      "returns": {
+        "type": "Error",
+        "description": "Parsed error"
+      }
+    }
   ]
 }
