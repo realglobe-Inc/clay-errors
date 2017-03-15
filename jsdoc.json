@@ -1,0 +1,70 @@
+{
+  "classes": [
+    {
+      "name": "NotFoundError",
+      "description": "",
+      "extends": [
+        "Error"
+      ],
+      "access": "",
+      "virtual": false,
+      "fires": "",
+      "constructor": {
+        "name": "NotFoundError",
+        "description": "Resource not found error",
+        "parameters": [
+          {
+            "name": "message",
+            "type": "string",
+            "description": "Error message",
+            "default": "",
+            "optional": "",
+            "nullable": ""
+          },
+          {
+            "name": "detail",
+            "type": "Object",
+            "description": "Error detail",
+            "default": "",
+            "optional": "",
+            "nullable": ""
+          }
+        ],
+        "examples": []
+      }
+    },
+    {
+      "name": "SchemaError",
+      "description": "",
+      "extends": [
+        "Error"
+      ],
+      "access": "",
+      "virtual": false,
+      "fires": "",
+      "constructor": {
+        "name": "SchemaError",
+        "description": "Schema validation error",
+        "parameters": [
+          {
+            "name": "message",
+            "type": "string",
+            "description": "Error message",
+            "default": "",
+            "optional": "",
+            "nullable": ""
+          },
+          {
+            "name": "detail",
+            "type": "Object",
+            "description": "Error detail",
+            "default": "",
+            "optional": "",
+            "nullable": ""
+          }
+        ],
+        "examples": []
+      }
+    }
+  ]
+}
