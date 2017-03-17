@@ -34,7 +34,7 @@
       }
     },
     {
-      "name": "SchemaError",
+      "name": "PolicyError",
       "description": "",
       "extends": [
         "Error"
@@ -43,8 +43,8 @@
       "virtual": false,
       "fires": "",
       "constructor": {
-        "name": "SchemaError",
-        "description": "Schema validation error",
+        "name": "PolicyError",
+        "description": "Policy validation error",
         "parameters": [
           {
             "name": "message",
