@@ -96,15 +96,15 @@ const { NotFoundError } = require('clay-errors')
 API
 ---------
 
-# clay-errors@1.0.0
+# clay-errors@2.0.0
 
 Custom error classes for ClayDB
 
 + Functions
 + [`NotFoundError`](#clay-errors-classes) Class
   + [new NotFoundError(message, detail)](#clay-errors-classes-not-found-error-constructor)
-+ [`SchemaError`](#clay-errors-classes) Class
-  + [new SchemaError(message, detail)](#clay-errors-classes-schema-error-constructor)
++ [`PolicyError`](#clay-errors-classes) Class
+  + [new PolicyError(message, detail)](#clay-errors-classes-policy-error-constructor)
 
 ## Functions
 
@@ -136,9 +136,9 @@ Constructor of NotFoundError class
 
 <a class='md-heading-link' name="clay-errors-classes"></a>
 
-## `SchemaError` Class
+## `PolicyError` Class
 
-Schema validation error
+Policy validation error
 
 **Extends**: 
 
@@ -146,11 +146,11 @@ Schema validation error
 
 
 
-<a class='md-heading-link' name="clay-errors-classes-schema-error-constructor" ></a>
+<a class='md-heading-link' name="clay-errors-classes-policy-error-constructor" ></a>
 
-### new SchemaError(message, detail)
+### new PolicyError(message, detail)
 
-Constructor of SchemaError class
+Constructor of PolicyError class
 
 | Param | Type | Description |
 | ----- | --- | -------- |

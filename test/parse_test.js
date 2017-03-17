@@ -21,7 +21,7 @@ describe('parse', function () {
 
   it('Parse', () => co(function * () {
     let error = parse({
-      name: 'SchemaError'
+      name: 'PolicyError'
     })
     ok(error)
   }))

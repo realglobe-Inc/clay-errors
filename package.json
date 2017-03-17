@@ -1,6 +1,6 @@
 {
   "name": "clay-errors",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Custom error classes for ClayDB",
   "browser": "shim/browser",
   "main": "lib",
@@ -35,7 +35,7 @@
     "co": "^4.6.0",
     "coz": "^6.0.20",
     "injectmock": "^2.0.0",
-    "sg-templates": "^1.3.2",
+    "sg-templates": "^1.4.2",
     "sugos-travis": "^2.0.7"
   },
   "engines": {
