@@ -116,7 +116,7 @@ Custom error classes for ClayDB
 
 Resource not found error
 
-**Extends**: 
+**Extends**:
 
 + `Error`
 
@@ -140,7 +140,7 @@ Constructor of NotFoundError class
 
 Policy validation error
 
-**Extends**: 
+**Extends**:
 
 + `Error`
 
