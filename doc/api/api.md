@@ -1,18 +1,18 @@
-# clay-errors@2.0.0
+# clay-errors@3.0.0
 
 Custom error classes for ClayDB
 
 + Functions
-+ [`NotFoundError`](#clay-errors-classes) Class
-  + [new NotFoundError(message, detail)](#clay-errors-classes-not-found-error-constructor)
-+ [`PolicyError`](#clay-errors-classes) Class
-  + [new PolicyError(message, detail)](#clay-errors-classes-policy-error-constructor)
++ [`NotFoundError`](#clay-errors-class) Class
+  + [new NotFoundError(message, detail)](#clay-errors-class-not-found-error-constructor)
++ [`PolicyError`](#clay-errors-class) Class
+  + [new PolicyError(message, detail)](#clay-errors-class-policy-error-constructor)
 
 ## Functions
 
 
 
-<a class='md-heading-link' name="clay-errors-classes"></a>
+<a class='md-heading-link' name="clay-errors-class"></a>
 
 ## `NotFoundError` Class
 
@@ -24,7 +24,7 @@ Resource not found error
 
 
 
-<a class='md-heading-link' name="clay-errors-classes-not-found-error-constructor" ></a>
+<a class='md-heading-link' name="clay-errors-class-not-found-error-constructor" ></a>
 
 ### new NotFoundError(message, detail)
 
@@ -36,7 +36,7 @@ Constructor of NotFoundError class
 | detail | Object | Error detail |
 
 
-<a class='md-heading-link' name="clay-errors-classes"></a>
+<a class='md-heading-link' name="clay-errors-class"></a>
 
 ## `PolicyError` Class
 
@@ -48,7 +48,7 @@ Policy validation error
 
 
 
-<a class='md-heading-link' name="clay-errors-classes-policy-error-constructor" ></a>
+<a class='md-heading-link' name="clay-errors-class-policy-error-constructor" ></a>
 
 ### new PolicyError(message, detail)
 
