@@ -1,6 +1,6 @@
 {
   "name": "clay-errors",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "Custom error classes for ClayDB",
   "browser": "shim/browser",
   "main": "lib",
@@ -35,14 +35,11 @@
     "co": "^4.6.0",
     "coz": "^6.0.20",
     "injectmock": "^2.0.0",
-    "sg-templates": "^1.4.2",
+    "sg-templates": "^1.4.4",
     "sugos-travis": "^2.0.7"
   },
   "engines": {
     "node": ">=6",
     "npm": ">=4"
-  },
-  "publishConfig": {
-    "registry": "https://realglobe.artifactoryonline.com/realglobe/api/npm/npm-local"
   }
 }
