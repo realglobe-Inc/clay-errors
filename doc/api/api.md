@@ -1,4 +1,4 @@
-# clay-errors@3.0.1
+# clay-errors@3.1.0
 
 Custom error classes for ClayDB
 

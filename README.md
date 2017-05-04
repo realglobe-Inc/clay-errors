@@ -96,7 +96,7 @@ const { NotFoundError } = require('clay-errors')
 API
 ---------
 
-# clay-errors@3.0.0
+# clay-errors@3.0.1
 
 Custom error classes for ClayDB
 
@@ -105,6 +105,8 @@ Custom error classes for ClayDB
   + [new NotFoundError(message, detail)](#clay-errors-class-not-found-error-constructor)
 + [`PolicyError`](#clay-errors-class) Class
   + [new PolicyError(message, detail)](#clay-errors-class-policy-error-constructor)
++ [`SituationError`](#clay-errors-class) Class
+  + [new SituationError(message, detail)](#clay-errors-class-situation-error-constructor)
 
 ## Functions
 
@@ -151,6 +153,30 @@ Policy validation error
 ### new PolicyError(message, detail)
 
 Constructor of PolicyError class
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| message | string | Error message |
+| detail | Object | Error detail |
+
+
+<a class='md-heading-link' name="clay-errors-class"></a>
+
+## `SituationError` Class
+
+Situation error
+
+**Extends**:
+
++ `Error`
+
+
+
+<a class='md-heading-link' name="clay-errors-class-situation-error-constructor" ></a>
+
+### new SituationError(message, detail)
+
+Constructor of SituationError class
 
 | Param | Type | Description |
 | ----- | --- | -------- |
