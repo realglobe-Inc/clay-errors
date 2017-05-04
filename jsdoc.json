@@ -65,6 +65,39 @@
         ],
         "examples": []
       }
+    },
+    {
+      "name": "SituationError",
+      "description": "",
+      "extends": [
+        "Error"
+      ],
+      "access": "",
+      "virtual": false,
+      "fires": "",
+      "constructor": {
+        "name": "SituationError",
+        "description": "Situation error",
+        "parameters": [
+          {
+            "name": "message",
+            "type": "string",
+            "description": "Error message",
+            "default": "",
+            "optional": "",
+            "nullable": ""
+          },
+          {
+            "name": "detail",
+            "type": "Object",
+            "description": "Error detail",
+            "default": "",
+            "optional": "",
+            "nullable": ""
+          }
+        ],
+        "examples": []
+      }
     }
   ],
   "functions": [
